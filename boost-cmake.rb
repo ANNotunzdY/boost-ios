@@ -3,11 +3,11 @@ require 'pathname'
 require 'rake'
 require 'shellwords'
 
-BOOST_VERSION=1_51_0
+BOOST_VERSION=1_52_0
 
 DEVELOPER_DIR='/Applications/Xcode.app/Contents/Developer'
-IPHONEOS_SDK_VERSION='6.0'
-IPHONEOS_DEPLOYMENT_TARGET='5.1'
+IPHONEOS_SDK_VERSION='6.1'
+IPHONEOS_DEPLOYMENT_TARGET='5.0'
 
 PLATFORMS = {
   'iPhoneOS' => {
